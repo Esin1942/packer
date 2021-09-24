@@ -42,5 +42,6 @@ node("worker1"){
             string(name: 'ami_name', value: "$image_name"),
             booleanParam(name: 'command', value: true)
             ]
+        echo "Blah-blah"
     }
 }
